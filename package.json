@@ -1,8 +1,9 @@
 {
   "name": "datetimeformat",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a npm package to get any type of format for date and time",
   "main": "main.js",
+  "keywords": ["npm", "datetimeformat", "date time format", "date format", "time format"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
