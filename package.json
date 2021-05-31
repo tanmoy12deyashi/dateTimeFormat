@@ -1,0 +1,22 @@
+{
+  "name": "easydatetimeformat",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmoy12deyashi/dateTimeFormat.git"
+  },
+  "keywords": [
+    "npm", "datetimeformat", "date time format", "dateformat", "timeformat"
+  ],
+  "author": "Tan Moy Deyashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanmoy12deyashi/dateTimeFormat/issues"
+  },
+  "homepage": "https://github.com/tanmoy12deyashi/dateTimeFormat#readme"
+}
