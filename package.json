@@ -1,6 +1,6 @@
 {
   "name": "easydatetimeformat",
-  "version": "1.0.2",
+  "version": "1.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "npm", "datetimeformat", "date time format", "dateformat", "timeformat"
   ],
   "author": "Tan Moy Deyashi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tanmoy12deyashi/dateTimeFormat/issues"
   },
