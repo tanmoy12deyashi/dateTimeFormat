@@ -1,5 +1,6 @@
 # easydatetimeformat
 A lightweight node.js package for formatting Date & Time in easy way.
+<br />_Source File < 5kb_
 
 
 # Installation
@@ -86,3 +87,26 @@ or dateTimeFormat('5/12/2020', 'ddd MMM yyyy');
 or dateTimeFormat('5_12_2020', 'ddd MMM yyyy');
 // 5th Dec 2020
 ```
+
+### Format Options
+
+| Format    | Format Description                                                                                                                                                             |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `d`       | Day of the month as digits; no leading zero for single-digit days. (1, .. ,31)                                                                                                 |
+| `dd`      | Day of the month as digits; leading zero for single-digit days. (01, .. ,31)                                                                                                   |
+| `ddd`     | Day of the month as ordinal number. (1st, 2nd, 3rd, 4th, .. ,31st)                                                                                                             |
+| `DDD`     | Day of the week as a three-letter abbreviation.  (Sun, ... Sat)                                                                                                                 |
+| `DDDD`    | Day of the week as its full name  (Sunday, ... Saturday)                                                                                                                       |
+| `m`       | Month as digits; no leading zero for single-digit months.  (1, .. ,12)                                                                                                         |
+| `mm`      | Month as digits; leading zero for single-digit months.    (01, .. ,12)                                                                                                         |
+| `MMM`     | Month as a three-letter abbreviation. (Jan, ...., Dec)                                                                                                                         |
+| `MMMM`    | Month as its full name.     (January, ...., December)                                                                                                                           |
+| `yy`      | Year as last two digits                                                                                                                                                         |
+| `yyyy`    | Year represented by four digits.                                                                                                                                               |
+| `h`       | Hours; no leading zero for single-digit hours                                                                                                                                   |
+| `hh`      | Hours; leading zero for single-digit hours                                                                                                                                     |
+| `i`       | Minutes; no leading zero for single-digit minutes.                                                                                                                             |
+| `ii`      | Minutes; leading zero for single-digit minutes.                                                                                                                                 |
+| `s`       | Seconds; no leading zero for single-digit seconds.                                                                                                                             |
+| `ss`      | Seconds; leading zero for single-digit seconds.                                                                                                                                 |
+| `A`       | AM or PM.                                                                                                                                                                       |

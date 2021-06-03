@@ -1,5 +1,5 @@
 let getOrdinalNum = (n) => n + (n > 0 ? ['th', 'st', 'nd', 'rd'][(n > 3 && n < 21) || n % 10 > 3 ? 0 : n % 10] : '');
-module.exports.datetimeformat = (e,l,n) => {
+module.exports.dateTimeFormat = (e,l,n) => {
     let r, t = ["%d%m%y", "%y%m%d", "%m%d%y"],
         i = new Date;
     l = l || "dd-mm-yyyy";
