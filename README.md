@@ -12,7 +12,9 @@ $ easydatetimeformat --help
 
 ##### Import Module
 ```js
-var dateTimeFormat = require("easydatetimeformat");
+var { dateTimeFormat } = require("easydatetimeformat");
+or
+var dateTimeFormat = require("easydatetimeformat").dateTimeFormat;
 ```
 ##### Basic Format
 ```js
