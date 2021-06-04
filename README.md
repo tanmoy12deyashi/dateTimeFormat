@@ -61,6 +61,7 @@ dateTimeFormat('20-12-23', 'ddd MMMM yyyy', '%y%m%d');  // 23rd December 2020
 
 
 // input date type --> month-date-year
+dateTimeFormat(new Date('02-12-2020'), 'ddd MMM yyyy')  // 12th Feb 2020
 dateTimeFormat('02-12-2020', 'ddd MMM yyyy', '%m%d%y'); // 12th Feb 2020
 dateTimeFormat('02-12-20', 'ddd MMM yyyy', '%m%d%y');  // 12th Feb 2020
 ```
