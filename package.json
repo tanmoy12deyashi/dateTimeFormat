@@ -1,7 +1,7 @@
 {
   "name": "easydatetimeformat",
-  "version": "1.1.7",
-  "description": "",
+  "version": "1.1.8",
+  "description": "A lightweight node.js package for formatting Date & Time",
   "main": "index.js",
   "repository": {
     "type": "git",

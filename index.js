@@ -9,7 +9,7 @@ module.exports.dateTimeFormat = (e,l,n) => {
     if (void 0 === e || void 0 !== e && "now" == e) e = i;
     else if (void 0 !== e && void 0 === n)
         if (isNaN(Number(e)))
-            if (3 == (e = e.trim().split(/[.\-_/ ]/).filter((e => e.length))).length && 4 == e[0].length && a(e[2]) && d(e[1])) e = new Date(e.join("-"));
+            if (3 == (e = e.trim().split(/[.\-_/ ,]/).filter((e => e.length))).length && 4 == e[0].length && a(e[2]) && d(e[1])) e = new Date(e.join("-"));
             else {
                 if (!(3 == e.length && a(e[0]) && d(e[1]) && u(e[2]))) return "Invalid " + (a(e[4 != e[0].length ? 0 : 2]) ? d(e[1]) ? u(e[4 != e[0].length ? 2 : 0]) ? "Format" : "Year" : "Month" : "Date");
                 e = new Date(2 == e[2].length ? Math.floor(i.getFullYear() / 100) + e[2] : e[2], e[1] - 1, e[0])
@@ -19,7 +19,7 @@ module.exports.dateTimeFormat = (e,l,n) => {
         if (void 0 === e || void 0 === n) return "Something went wrong"; {
             n = n.toLocaleLowerCase();
             let l, r, s;
-            if (e = e.trim().split(/[.\-_/ ]/).filter((e => e.length)), n.includes(t[0])) l = e[2], r = e[1], s = e[0];
+            if (e = e.trim().split(/[.\-_/ ,]/).filter((e => e.length)), n.includes(t[0])) l = e[2], r = e[1], s = e[0];
             else if (n.includes(t[1])) l = e[0], r = e[1], s = e[2];
             else {
                 if (!n.includes(t[2])) return "This input date format is not valid, We are working on it";
